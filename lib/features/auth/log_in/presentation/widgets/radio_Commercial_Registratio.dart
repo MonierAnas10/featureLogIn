@@ -17,7 +17,7 @@ class RadioCommercialRegistrationDate extends StatefulWidget {
 
 class _RadioCommercialRegistrationDateState
     extends State<RadioCommercialRegistrationDate> {
-  int selectedDateType = 0; // 0 = هجري, 1 = ميلادي
+  int selectedDateType = 0; // 0 = hijriDate, 1 = gregorianDate
 
   @override
   Widget build(BuildContext context) {

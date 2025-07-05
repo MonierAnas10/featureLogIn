@@ -70,18 +70,14 @@ class _PersonalInfoCardState extends State<PersonalInfoCard> {
                   color: AppColor.subtextColor,
                   fontSize: AppSize.smallText,
                 ),
-                Row(
-                  children: [
-                    AppCheckBox(
-                      label: AppMessage.wouldLikeToBeContacted,
-                      value: isChecked,
-                      onChanged: (newValue) {
-                        setState(() {
-                          isChecked = newValue ?? false;
-                        });
-                      },
-                    ),
-                  ],
+                AppCheckBox(
+                  label: AppMessage.wouldLikeToBeContacted,
+                  value: isChecked,
+                  onChanged: (newValue) {
+                    setState(() {
+                      isChecked = newValue ?? false;
+                    });
+                  },
                 ),
               ],
             ),
