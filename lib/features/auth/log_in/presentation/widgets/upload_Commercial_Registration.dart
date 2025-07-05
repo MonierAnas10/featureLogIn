@@ -11,7 +11,6 @@ class UploadCommercialRegistration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120.h,
       width: double.infinity,
       decoration: BoxDecoration(
         color: AppColor.subtextColor,
