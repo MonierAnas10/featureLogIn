@@ -68,8 +68,12 @@ class _TaxInfoCardState extends State<TaxInfoCard> {
                   controller: _controllerPickerFile,
                   readOnly: true,
                   onTap: () async {
-                    // ignore: unused_local_variable
                     final file = await AppHelpers.pickDocument();
+                    if (file != null) {
+                      print('اسم الملف: ${file.name}');
+                      print('المسار: ${file.path}');
+                      _controllerPickerFile.text = file.name;
+                    }
                   },
                 ),
                 15.verticalSpace,

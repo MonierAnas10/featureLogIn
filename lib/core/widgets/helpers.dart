@@ -1,11 +1,9 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:taskorderrate/core/shared/class_shared_import.dart';
-import 'package:taskorderrate/core/widgets/app_decoration.dart';
-import 'package:taskorderrate/core/widgets/lottie_helper.dart';
 
-import '../domain/entity/alert_model.dart';
-import 'dialogs/quickalert_dialog.dart';
+import '../shared/class_shared_import.dart';
+import 'app_decoration.dart';
+import 'lottie_helper.dart';
 
 class AppHelpers {
   ///get core height===========================================================================================================================
